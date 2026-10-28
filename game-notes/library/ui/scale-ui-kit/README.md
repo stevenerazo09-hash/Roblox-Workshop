@@ -30,3 +30,10 @@
 - The rules this kit enforces are in [[ui-scale-only]].
 - The stroke and wiggler registries are strong tables pruned of destroyed entries, not weak tables keyed by Instances (see [[weak-tables-and-instances]]).
 - Mage Farm's test suite has a "ui registries stay bounded" check that uses `UI.tracked()`.
+
+## Variants
+
+**Baseplate adaptation** (`Baseplate/src/client/UI.lua`, 2026-10-27)
+- Removed: `UI.icon` and the [[sfx]] dependency. Buttons no longer call `SFX.play`.
+- Added: `UI.click`, a pcall-guarded optional click sound. It reads `ReplicatedStorage.Shared.Sandbox.Config.SystemMenu.Sounds.Click`. If the path is missing or the call fails, the click is silently skipped, so the kit works without any sound assets.
+- Everything else (RelativeYY groups, Scale children, TextScaled, strokes, badges, pager) is unchanged.

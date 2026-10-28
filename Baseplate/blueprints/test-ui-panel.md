@@ -1,6 +1,6 @@
-# Blueprint: test-ui-panel
+﻿# Blueprint: test-ui-panel
 
-Status: draft
+Status: built
 <!-- draft -> approved (owner only) -> built, or blocked (with a question) -->
 
 Game: Baseplate
@@ -32,8 +32,14 @@ A simple screen UI panel for the Baseplate throwaway game: a title, one line of 
 ## Security notes
 None. No remotes, no rewards, no damage, no purchases.
 
-## Open questions
-- Does Baseplate already have a `src/client` folder and a `Shared` config? If not, where should `UI.lua` live?
-- Should the click sound stay? If Baseplate does not have the sfx module, the kit's `SFX.play("click")` call must be removed or stubbed. Which option do you want?
-- The kit's icon helper needs `Config.Icons` and `Config.IconEmoji`. Baseplate has no icons in this panel, so the icon code can be left unused or removed. Confirm that is fine.
-- Should the panel be opened by a key (for example M), or only on start for now?
+## Owner answers (2026-10-27)
+- Layout: Baseplate has `src/client` (Rojo: StarterPlayerScripts.Client), `src/shared` (ReplicatedStorage.Shared), `src/ui` (StarterGui.UI). Put `UI.lua` in `src/client`, the panel in `src/client`.
+- Keep the click sound. Baseplate has no sfx module, so add a tiny local click sound inside UI.lua (no SFX module copy) or the nearest equivalent. Do not use a real asset id the owner has not given: use a placeholder id from Config if one exists, else make the sound optional and silent.
+- Icon helper: remove it from the copied UI.lua (the panel has no icons).
+- Open key: the owner asked for M, but M already opens the System menu (`Baseplate/src/shared/Sandbox/Config.lua:190`). Use P instead, as one constant at the top of the panel script, and tell the owner.
+
+## Build notes (builder, 2026-10-27)
+- `Baseplate/src/client/UI.lua`: copied from [[scale-ui-kit]]. Removed `UI.icon` and the `props.Icon` button branch (no Config.Icons/IconEmoji). Replaced `SFX.play("click")` with `UI.click()`, which reuses the existing placeholder id `Config.SystemMenu.Sounds.Click` from Sandbox Config and stays silent if it is missing or fails. No new asset id added.
+- `Baseplate/src/client/TestUIPanel.client.lua`: a LocalScript (not a ModuleScript), so it runs on its own beside `SandboxClient.client.lua` without editing `init.client.luau`. `Show()`, `Hide()` and `Toggle()` are local to that script. If another script needs to call them, it should become a ModuleScript required from `init.client.luau` (an extra file change, not done here).
+- `TOGGLE_KEY = Enum.KeyCode.P` at the top. ScreenGui uses `ResetOnSpawn = false`. Panel is RelativeYY Scale, text TextScaled, strokes rescaled on ViewportSize change.
+- Checked: `rojo build` passes; the Offset grep only hits comment lines in UI.lua. Not checked yet: Play mode, Device Simulator sizes, `UI.tracked()` counts (needs Studio).

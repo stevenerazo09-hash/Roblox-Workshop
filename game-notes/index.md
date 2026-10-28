@@ -40,3 +40,4 @@ Every reusable item and lesson, one line each. Format:
 - [[publishing-workflow]]: test, copy edits into the cloud place, Alt+P; never Publish As overwrite, MageFarm, 2026-10-26
 - [[dashboard-uploads]]: Creator Dashboard uploads and forms through Chrome, MageFarm, 2026-10-26
 - [[open-cloud-api-key]]: keep the key out of git, Model id vs MeshId, upload fallbacks, Baseplate, 2026-10-27
+- [[key-conflicts]]: grep the game for a key before binding it; M was already the System menu key, Baseplate, 2026-10-27
