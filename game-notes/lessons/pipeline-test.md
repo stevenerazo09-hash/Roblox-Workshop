@@ -18,4 +18,11 @@ Decisions made along the way (the owner should know)
 - The click sound reuses the System menu's placeholder id from Config; no new asset id was added.
 - The icon helper was removed from the copied `UI.lua`.
 
-Not proven: the panel has never run in Studio. Nothing was published.
+Update: the panel was later run in Studio (see the play test below). Nothing was published.
+
+## Studio play test (2026-10-27, after the pipeline)
+- Rojo synced the new scripts into Sandbox.rbxl.
+- In Play, the ScreenGui TestUIPanel was built with Panel, Title, Body and Close; Panel size is Scale only.
+- The Close button hid the panel. P toggled it off and on.
+- No script errors from the panel in the Output. Existing asset-permission warnings (ids 135395677307417 and 203785492) were already present; the second is probably the placeholder click sound.
+- Not tested: Device Simulator sizes, a screenshot of the panel, UI.tracked() counts.
