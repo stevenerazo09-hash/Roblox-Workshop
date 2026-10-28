@@ -1,0 +1,21 @@
+# Secrets: never commit keys or local env files (.env.example is allowed)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials*
+
+# Blender autosaves and backups
+*.blend1
+*.blend2
+
+# Studio lock files
+*.rbxl.lock
+*.rbxlx.lock
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini

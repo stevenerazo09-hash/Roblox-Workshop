@@ -16,3 +16,4 @@ After building or learning something reusable:
 
 Only add reusable things. Logic specific to one game stays in that game's folder.
 Do not move or delete files in `game-notes/` without asking.
+UI rule for every game: screen UI uses Scale only, never Offset. See game-notes/lessons/ui-scale-only.md.

@@ -1,8 +1,23 @@
-# Roblox build output and local files
+# Secrets: never commit keys or local env files (.env.example is allowed)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials*
+
+# Roblox build output and binary place files (.rbxlx is tracked so git can diff it)
 build/
 *.rbxl
-*.rbxlx
 *.rbxl.lock
+*.rbxlx.lock
+
+# Blender autosaves and backups
 *.blend1
+*.blend2
+
+# OS / editor noise
 .DS_Store
 Thumbs.db
+desktop.ini

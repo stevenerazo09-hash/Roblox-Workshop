@@ -2,13 +2,17 @@
 .env
 .env.*
 !.env.example
+*.key
+*.pem
+secrets/
+credentials*
 
 # Blender autosaves and backups
 *.blend1
 *.blend2
 
-# Studio lock files (Sandbox.rbxl itself is committed as a snapshot; src/ is
-# the master copy of every script)
+# Studio lock files. Sandbox.rbxl is a binary place file, so the root .gitignore
+# keeps it out of git. Save places as .rbxlx when you want them tracked.
 *.rbxl.lock
 *.rbxlx.lock
 
