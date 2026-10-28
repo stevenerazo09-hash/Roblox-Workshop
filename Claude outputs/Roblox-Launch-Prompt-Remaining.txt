@@ -1,0 +1,84 @@
+REMAINING SETUP: ROBLOX AGENT WORKSHOP
+
+Paste everything below the line into Claude Code, opened in C:\Users\steve\Documents\Roblox. Use PowerShell for Windows commands. The folder layout, root CLAUDE.md, git repository, and .gitignore files already exist. Do not recreate them. Never overwrite a file that exists, and never delete anything. Stop and ask me whenever a step says ASK.
+
+----------------------------------------------------------------------
+
+Context: I am the owner of this Roblox workshop. Agents may plan, build, and check work, but they must never publish to Roblox, spend Robux, change monetization, upload assets, push to a remote, or write API keys into any file without my explicit approval for that action.
+
+STEP 1: CHECK WHAT EXISTS
+
+Confirm these exist and report anything missing: CLAUDE.md, game-notes/index.md, game-notes/library/_template/README.md, MageFarm/default.project.json, Baseplate/default.project.json, .gitignore in the root, MageFarm, and Baseplate. Run git status and report the output. Do not commit yet.
+
+STEP 2: ASK ME THESE
+
+a. The UI "Scale-only" rule is already in game-notes/lessons/ui-scale-only.md. Confirm it is the rule I mean, and add a one-line pointer to it in CLAUDE.md. Do not copy the rule text.
+b. Where should my source-file backup folder live, outside this folder? Record it in game-notes/assets-source.md.
+c. Do I have a private git remote yet? If yes, send me the URL.
+d. Which Roblox group, if any, should own uploaded assets? If none, record it as an open item.
+e. Should Sandbox.rbxl (the binary place file in Baseplate) be kept out of git? My default is yes, since it is binary. Confirm before you change anything.
+
+STEP 3: CHECK WHAT GIT ALREADY TRACKS
+
+Run git log --stat -1 and report whether MageFarm's README.md, PROMPT.md, tests/, and notes/ were included in the setup commit. Then run git lfs version and git lfs ls-files. Report whether .blend files are tracked through LFS. If LFS is not installed, tell me how to install it, and wait.
+
+STEP 4: AGENT FILES
+
+Create agents/ in this folder with these files. Each file has a header block with name, description, model, effort, and tools, followed by its instructions. Use model aliases for now, and record each alias's resolved version in agents/VERSIONS.md.
+
+- planner.md: model haiku, effort medium, tools Read, Glob, Grep, Write. Writes blueprints from templates only. Sets Status to "draft". Never writes Luau.
+- builder.md: model opus, effort high, tools Read, Write, Edit, Glob, Grep. Builds only blueprints whose Status is "approved". Sets Status to "blocked" with a written question if it is unsure. Sets Status to "built" when done.
+- blender-artist.md: model sonnet, effort medium, tools Read, Write, Bash. Makes 3D parts through Blender's command line. Writes only inside the game's assets/ folder.
+- studio-operator.md: model sonnet, effort medium, tools Read, plus screen control only if this session has it. Runs playtests only when I ask. Never publishes, never accepts purchases, and never changes the place file without asking. Mark it "disabled" in agents/VERSIONS.md until I confirm screen control works.
+- checker.md: model sonnet, effort medium, tools Read, Glob, Grep, Bash. Runs rojo build, the Luau analyzer if installed, and the blueprint's acceptance checks. Reports pass or fail with exact error text. Does not edit game code or open Studio.
+- security.md: model haiku, effort medium, tools Read, Glob, Grep. Read-only review of src/ for client-decided rewards, damage, or purchases; remotes that trust client input; secrets in code; and remotes with no rate limit.
+- librarian.md: model haiku, effort low, tools Read, Write, limited to game-notes/. Writes library entries and index lines for reusable work. Never deletes entries.
+
+Then create scripts/sync-agents.ps1. It copies agents/*.md into %USERPROFILE%\.claude\agents\, skips any agent marked "disabled" in VERSIONS.md, and never deletes anything in the destination. Run it, then tell me how to re-run it after edits.
+
+STEP 5: MAIN SESSION MODEL
+
+For each game folder, create .claude/settings.json containing {"model": "sonnet"}, unless the file already exists. The main session should never be Opus. Create templates/game/.claude/settings.json with the same content for future games.
+
+STEP 6: DASHBOARD
+
+Build the dashboard with the Artifact tool using the Dashboard type. Start with a quickstart call using intent "other". Sections: agents with their model, effort, and state; an approval queue with what each item is and which agent raised it; blueprints and their status; library count and recent additions; the verification list from step 8; and the cost log. Put colors and fonts in one theme block at the top so I can change the look by asking. Note on the page that it shows the last update, not a live view. Update it whenever an agent starts, finishes, blocks, or needs me.
+
+STEP 7: ALERTS
+
+Use the PushNotification tool for approval requests, blocked blueprints, checker failures, security findings, and long tasks that finished while I was away. Keep each message under 200 characters and lead with the action needed. Alerts reach my phone only when Remote Control is connected.
+
+STEP 8: VERIFY WHAT IS NOT YET PROVEN
+
+Record each result and date in game-notes/lessons/setup-verification.md. Mark an item VERIFIED only after a real test. Otherwise mark it UNVERIFIED with the reason.
+
+1. Subagents can start other subagents (small nested test).
+2. The model in .claude/settings.json is used by the main session.
+3. The @game-notes/index.md import in CLAUDE.md loads.
+4. Rojo is installed and rojo build works on MageFarm. If Rojo is missing, tell me how to install it and wait.
+5. The Studio plugin connects to rojo serve. Ask me to confirm.
+6. Saving a place as .rbxlx works in my Studio version.
+7. Syncback works, tested only on a throwaway copy.
+8. The Luau analyzer runs, if installed.
+9. Blender runs from the command line with a Python script.
+10. Screen control can read Roblox Studio. Test only if I say yes.
+11. Remote Control connects and I can see the session from my phone. Ask me to confirm.
+12. PushNotification reaches my phone. Ask me to confirm.
+13. Group asset uploads. Do not test. Record as UNVERIFIED for me to check on Roblox's site.
+14. Each alias resolves to the version recorded in agents/VERSIONS.md.
+
+STEP 9: TEST THE PIPELINE END TO END
+
+Create a small test request: one simple UI panel for a throwaway game, Baseplate, using a library entry where one exists. Run it through the full chain: planner, my approval, builder, checker, security, and librarian. Record in game-notes/lessons/pipeline-test.md what each agent did, which model it used, and how long it took. Do not publish. If any step fails, record the failure and stop; do not fix it silently.
+
+STEP 10: COST
+
+Create game-notes/lessons/cost-log.md with a table: date, task, agents used, model per agent, session usage, notes. Add a row after each build. Use the explain-usage skill for figures.
+
+STEP 11: COMMIT
+
+After the steps above, show me git status and the proposed commit message "Add agents, dashboard, and verification log." Commit only after I approve. Do not push.
+
+STEP 12: FINAL REPORT
+
+Reply with: what you created (paths), what you could not finish and why, the verification results grouped as VERIFIED and UNVERIFIED, the pipeline test result, and the next steps that only I can do. Do not publish anything. Do not start Remote Control yourself.
