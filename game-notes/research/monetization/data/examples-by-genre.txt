@@ -1,0 +1,168 @@
+﻿## Tycoons and Idle
+### Steal An Egg (universe 10563114921, playing 2453909, genre Simulation)
+PASSES: X2 MONEY! 399 | X2 GROWTH SPEED! 467
+PRODUCTS: 107 for sale, min 1, median 249, max 4999
+PRODUCT SAMPLE: Sample Pack 1 1 | SPEED MULTIPLIER (Tier 1) 3 | Instant Hatch (1) 9 | Sci-Fi Treadmill 19 | Green Trail 19 | Blue Trail 29 | Flame Treadmill 39 | Purple Trail 49 | Luck Boost 1 49 | Cash Pack I 49 | Rift Refresh 49 | 24k Money 49 | Steal DNA Common 49 | Celebrity Treadmill 69 | +150k SPEED 79 | Golden Trail 79 | Steal DNA Uncommon 79 | Speed 5 Minutes 90
+### [] Steal a Brainrot (universe 7709344486, playing 156207, genre Simulation)
+PASSES: 2x Money 299 | VIP 375 | Admin Commands 7999
+PRODUCTS: 80 for sale, min 19, median 99, max 11992
+PRODUCT SAMPLE: Skip Timer - Cavallo Virtuoso Egg 19 | Skip Timer - Capibaro Celestino Egg 19 | Skip Timer - Tartaruga Cisterna Egg 19 | ################################# 19 | Skip Timer - Ranito Pepito Egg 19 | Skip Timer - Craburger Egg 19 | Skip Timer - Extinct Ballerina Egg 19 | Skip Timer - Fishboard Egg 19 | Skip Timer - Frio Ninja Egg 19 | Skip Timer - Eggdin Egg Egg Dun Egg 19 | Skip Timer - Sammyni Spyderini Egg 19 | Unlock First Floor 39 | Unlock Base 39 | +1 Speed 39 | Unlock Second Floor 39 | Unlock Third Floor 39 | Skip Timer - La Grande Combinasion Egg 49 | Skip Timer - Qamar Camelamp Egg 49
+### Break and Steal an Egg (universe 10765288803, playing 112875, genre Simulation)
+PASSES: 
+PRODUCTS: 107 for sale, min 3, median 249, max 4299
+PRODUCT SAMPLE: 2x Speed 3 | Trail 1 3 | Pickaxe [Tier 1] 3 | 4x Speed 6 | Skip Time [1] 9 | Skip Speed Upgrade[Tier 1] 9 | Skip Timer [2] 19 | Cash Pack 1 24 | x1.25 WalkSpeed Potion 29 | 16x Speed 34 | Double Offline Reward 49 | x2 Treadmill Speed Potion 49 | Treadmill Skip [Tier 1] 49 | x2 Cash Potion 54 | Speed Pack 1 59 | Fallen Tokens Pack [Tier 1] 89 | Candy Corn [Tier 1] 89 | Purchase 1 Egg 99
+### [] Fake an Egg (universe 10769384180, playing 42376, genre Simulation)
+PASSES: 
+PRODUCTS: 79 for sale, min 1, median 39, max 299
+PRODUCT SAMPLE: Skip Rebirth (1) 1 | Common Scanner (x1) 1 | Skip Common Egg 1 | Unlock Nest (1) 3 | Uncommon Scanner (x1) 3 | Skip Haunted Machine Timer 3 | Skip Uncommon Egg 3 | Reveal Fake Eggs! 3 | Skip Rare Egg 5 | Rare Scanner (x1) 6 | Skip Haunted Machine Timer (2) 6 | Carrot (x1) 6 | Reveal Fake Eggs! (2) 9 | Epic Scanner (x1) 9 | Skip Epic Egg 9 | Legendary Scanner (x1) 14 | Mythic Scanner (x1) 19 | Apple (x1) 19
+### Build and Kill Zombies (universe 10741654282, playing 32853, genre Simulation)
+PASSES: Premium Paint  [20% OFF] 99 | Faster Roll 129 | 2x Permanent Luck 149 | 2x Cash 179 | 4x Permanent Luck 229
+PRODUCTS: 51 for sale, min 9, median 399, max 9999
+PRODUCT SAMPLE: Instant Buy Item [Tier-1] 9 | Extra save slot! 16 | Tiny Cash Pack 25 | REVIVE [BOSS] 29 | Starter Pack 39 | X2 SERVER LUCK ROLLS [OP ] 39 | Small Crypt Token Pack 49 | Small Pack Token 49 | Triple Offline Cash 49 | Global Build Kit 49 49 | X6 SERVER LUCK ROLLS [OP ] 99 | Premium Paint 99 | Unlock This Offline Items! 129 | Pro Pack 129 | Small Cash Pack 149 | Fast Furious 159 | Medium Crypt Token Pack 199 | Global Build Kit 199 199
+## Competitive PvP
+### Murder Mystery 2 (universe 66654135, playing 1580103, genre Survival)
+PASSES: Radio 475 | Elite 499 | BUNDLE: Mortal 3399
+PRODUCTS: 156 for sale, min 25, median 1699, max 22500
+PRODUCT SAMPLE: +50 Coins 25 | ------ 25 | --------------- 50 | +50 Gems 50 | +100 Coins 50 | -- 50 | ---- 75 | 800 Candies 100 | [[ +1,000 Candies ]] 100 | [[ +1,000 Tokens ]] 100 | +300 Candies 100 | Tokens x600 100 | Candies x800 100 | Gems x100 100 | Key x1 100 | 800 Beach Balls 100 | ------- 100 | ----------------- 125
+### [HIRED KILLER] Jujutsu Shenanigans (universe 3508322461, playing 324143, genre Action)
+PASSES: Awakening Outfits 115 | Custom Kill Sound 120 | More Build Saves 125 | More Emote Slots 175 | Early Access 345
+PRODUCTS: 13 for sale, min 25, median 125, max 449
+PRODUCT SAMPLE: 1 Random Skin 25 | Random Emote 25 | 100 Candies 49 | +1 Upload Slot 50 | 2 Random Emotes 50 | Random Victory Flash 100 | 5 Random Skins 125 | +1 Emote Page 200 | 10 Random Emotes 250 | 10 Random Skins 250 | 1000 Candies 449
+### [] RIVALS (universe 6035872082, playing 278282, genre Shooter)
+PASSES: Starter Bundle! 59 | RPG Bundle! 95 | Medkit Bundle! 289 | Exogun Bundle! 649 | Standard Weapons Bundle! 849 | Classic Bundle! 865 | Energy Bundle! 975 | Heavy Duty Bundle! 1425
+PRODUCTS: 92 for sale, min 15, median 595, max 6999
+PRODUCT SAMPLE: Refresh Tasks 15 | Spooky Prize Wheel 30 | Candy Bundle 59 | Key Bundle 59 | Super Starter Bundle! 67 | +1 Season Pass Level 99 | Mega Candy Bundle 199 | Mega Key Bundle 199 | Spooky Prize Wheel [10] 249 | Skin Case 2 289 | Skin Case 289 | Spooky Skin Case 289 | Daily Skin C (Common) 299 | Daily Skin A (Common) 299 | Daily Skin B (Common) 299 | Daily Skin E (Common) 299 | Daily Skin D (Common) 299 | Daily Skin A (Rare) 359
+### The Strongest Battlegrounds (universe 3808081382, playing 73921, genre Action)
+PASSES: Awakening Outfit 99 | Extra Emote Slots 99 | Emote Second Page 99 | Kill Sound 199 | Early Access 299 | VIP 299 | Private Servers+ 499
+PRODUCTS: 41 for sale, min 1, median 299, max 100000
+PRODUCT SAMPLE: Donation - 1 1 | Random Emote 25 | Priority 39 | 1 Spin 79 | Eternal Seal 99 | +1 Save Slot 99 | 5 Random Emotes 125 | Final Bomb 199 | Boundless Rage 199 | Last Will 199 | Inner Rage 199 | Speedster 199 | Super Emeralds 199 | The Strongest 199 | Demon King 199 | 3 Spins 237 | 10 Random Emotes 250 | True Aura 299
+### [UPD] Volleyball Legends (universe 6931042565, playing 72367, genre Sports & Racing)
+PASSES: Spin Skipping 49 | 2x Emote Slots 150 | VIP 399
+PRODUCTS: 176 for sale, min 19, median 649, max 9999
+PRODUCT SAMPLE: Starter Bundle 19 | 1 Tier 39 | Skip Quest 2 49 | Streak Buyback 49 | 2 Tiers 78 | MasterySkip1-2 99 | MasterySkip2 99 | Gem Product 1 99 | Skip Level 99 | Refresh Daily Quests 99 | Premium Pass 100 | 10 Spins 149 | Seasonal Currency 1 180 | Medium Pack 199 | Yen Pack 1 199 | 1 Lucky Spin 199 | Classic Pack 199 | Seasonal Rebirth 199
+## Roleplay and Social
+### Brookhaven RP (universe 1686885941, playing 667428, genre Roleplay & Avatar Sim)
+PASSES: Vehicle Upgrade 35 | On Demand Fire 40 | Horse Upgrade 85 | Penthouse 180 | Vehicle Speed Unlocked 199 | Vehicle Boost Upgrade 199 | Music Unlocked 199 | Vehicle Customization 299 | Theme Pack 299 | Boat Pack 299 | Premium 320 | Land Unlocked 375 | Disaster Pass 375 | Vehicle Pack 599 | House Pets 599 | Estates Unlocked 599 | Prison Landmark 699 | VIP 749
+PRODUCTS: 34 for sale, min 1, median 80, max 600
+PRODUCT SAMPLE: Christmas Starter Pack 1 | Reward 1 | Developer Product 18 1 | Heart Burst Firework (x10) 5 | Galaxy Spiral Firework (x10) 5 | Egg Radar 9 | Taco Party 9 | Birthday Party 9 | Candy Corn Radar 9 | Dance Party 9 | 5x Sticky Bombs 20 | Community Outfit Slot 25 | House Save Slot 1 50 | Small Ticket Bundle (500) 60 | +100 Private Server Prop Limit 80 | +10 Public Server Prop Limit 80 | +1 Vehicle Slot 80 | +1 Private Server Prop Save Slot 80
+### [2H] Adopt Me! (universe 383310974, playing 260269, genre Roleplay & Avatar Sim)
+PASSES: 1.25x Candy Multiplier 50 | Premium Plots 285 | +1 Pet Pen Slot 295 | VIP 480 | Cozy Home Lure 765 | Millionaire Pack 795
+PRODUCTS: 95 for sale, min 2, median 130, max 4140
+PRODUCT SAMPLE: 50 Bucks (90% Discount) 2 | 300 Candy 7 | 2x XP for 15 Minutes 7 | Royal Egg Starter Pack 9 | 200 Bucks (90% Discount) 9 | Double Daily Login Reward 10 | Paint Sealer 20 | 50 Bucks 24 | Pro Ghost Blaster 29 | Instant Hatch 35 | 1750 Candy 40 | Lemonade Stand 40 | Neon Prism Mega Neon Paint 49 | Electric Tide Mega Neon Paint 49 | Amethyst Skies Mega Neon Paint 49 | Rose Quartz Glow Mega Neon Paint 49 | Candy Flare Mega Neon Paint 49 | Tropical Surge Mega Neon Paint 49
+### [ NEW QUEST] Dress To Impress (universe 5203828273, playing 137161, genre Roleplay & Avatar Sim)
+PASSES: Increased Item Limit 129 | Run Faster 149 | French Luxury Set 279 | Rich Girl Set 299 | Moongazer Set 299 | Denim Set 299 | Materials+ 299 | Custom Makeup 349 | Sweet Berry Set 349 | Moonlight Butterfly 379 | x2 Money 399 | Queen Of Hearts 399 | Haunting Beauty 449 | VIP Pass 799
+PRODUCTS: 54 for sale, min 5, median 149, max 4500
+PRODUCT SAMPLE: Donation 1 5 | Effect Pack A 9 | Revive 25 | Runway Roses 5 Uses 29 | Runway Spotlight 5 Uses 29 | Runway Hearts 5 Uses 29 | Dontation 3 50 | Runway Tomato 5 Uses 59 | Theme Prop 75 | Custom Theme 75 | +60 Seconds 79 | Runway BOOM 5 Uses 89 | Copy Outfit 99 | Daily Login Bonus 99 | Robux Hair Slot - A 99 | Claim Missed Advent Day 99 | immunity 99 | Money Tier 1 100
+### Catalog Avatar Creator (universe 2711375305, playing 80766, genre Shopping)
+PASSES: 
+PRODUCTS: 15 for sale, min 10, median 500, max 100000
+PRODUCT SAMPLE: 1 Outfit Sponsor Token 10 | Customizable Text Sign 29 | Big Avatar Potion 29 | BONK! Hammer 29 | 5 Outfit Sponsor Tokens 50 | 1 Sponsor Token 100 | 25 Outfit Sponsor Tokens 250 | 5 Sponsor Tokens 500 | 100 Outfit Sponsor Tokens 1000 | 25 Sponsor Tokens 2500 | 1000 Outfit Sponsor Tokens 10000 | 100 Sponsor Tokens 10000 | 1000 Sponsor Tokens 100000
+### Berry Avenue  RP (universe 3240075297, playing 70266, genre Roleplay & Avatar Sim)
+PASSES: Luxury Yacht 149 | Rustic Mountain Mansion 200 | Palm Springs Mansion 200 | Classic Cars Pack! 249 | Luxurious Cars Pack 299 | Vehicle Pack 1 499 | First Class Travel 599 | Top Floor Penthouse! 599 | Premium Houses 799
+PRODUCTS: 11 for sale, min 149, median 299, max 799
+PRODUCT SAMPLE: Luxury Yacht 149 | Palm Springs Mansion 200 | Rustic Mountain Mansion 200 | Create Servers 200 | Classic Cars Pack! 249 | Luxurious Cars Pack 299 | Premium Houses Demo 300 | Vehicle Pack 1 499 | Top Floor Penthouse! 599 | First Class Travel 599 | Premium Houses 799
+## Survival, Horror and Adventure
+### 99 Nights in the Forest (universe 7326934954, playing 321797, genre Survival)
+PASSES: Decorator Pass 199
+PRODUCTS: 21 for sale, min 1, median 129, max 2500
+PRODUCT SAMPLE: Ignore 1 | Revolver (single life) 40 | Self Revive 55 | Rifle (single life) 80 | Self Revive Again 95 | Revive Friend 95 | 20 Diamonds 99 | 3 Offerings 99 | Reroll Classes (1) 99 | Revive Everyone 230 | Skip to Level 2 290 | Starter Survival Kit 299 | 100 Diamonds 400
+### [BUTCHER x ] Violence District (universe 6739698191, playing 214249, genre Survival)
+PASSES: 2x Emotes 149 | V.I.P 599
+PRODUCTS: 29 for sale, min 15, median 279, max 1600
+PRODUCT SAMPLE: 500 screws 15 | 30% EXP BOOST (1 HOUR) 49 | 100 emblems 50 | 2,500 screws 75 | 400 Candy 80 | 100 Ornaments 89 | Starter Pack 149 | Skip 1 Tier 149 | 30% EXP BOOST (3 HOURS) 149 | +15 SIN 150 | Skip 2 Tiers 279 | Street Pack 299 | 2,000 Candy 320 | Butcher Pack 449 | 15,000 450 | 1000 emblems 500 | 30% EXP BOOST (12 HOURS) 549 | 1,000 Ornaments 890
+### Dandy's World [ALPHA] (universe 5569032992, playing 168695, genre Survival)
+PASSES: Swimmy Barnaby Profile Bundle 100 | Rainbow Profile Bundle 100 | +2 Sticker Wheels 199 | Show-Time Cosmetic Pack 200 | Spooky-Time Cosmetic Pack 200 | Star-Time Cosmetic Pack 200 | Queens of Mischief Cosmetic Bundle 700
+PRODUCTS: 18 for sale, min 10, median 475, max 1500
+PRODUCT SAMPLE: Missed day 10 | Starter Bundle 40 | 300 Ichor 75 | 300 Pumpkins 99 | 300 Ornaments 99 | 300 Baskets 99 | 1500 Ichor 375 | 1450 Pumpkins 475 | 1450 Ornaments 475 | 1450 Baskets 475
+### DOORS (universe 2440500124, playing 126317, genre Survival)
+PASSES: BUSTER PASS (HALLOWEEN '26) 99 | KITTY BUNDLE 299 | ADMIN PANEL 499
+PRODUCTS: 22 for sale, min 25, median 129, max 100000
+PRODUCT SAMPLE: 10 Stardust 25 | 1 REVIVE 40 | KNOBS (250) 49 | +1 PERMANENT SAVE SLOT 50 | 5X KNOBS BOOST (1) 59 | REVIVE YOURSELF INSTANTLY ( AGAIN ) 60 | 5X KNOBS BOOST: LASTS 3 RUNS (OLD) 100 | REVIVE YOURSELF INSTANTLY ( YET AGAIN ) 120 | (3) 5X KNOB BOOSTS 129 | 5 REVIVES 145 | KNOBS (1,300) 199 | 10 REVIVES 239 | 170 Stardust 299 | KNOBS (16,000) 1799 | KNOBS (1,000,000) ???? 100000
+### [1.5x HLWN] Evade (universe 3647333358, playing 93590, genre Survival)
+PASSES: [ADD-ON] Evade Boombox IDOL - Red Flame 100 | [ADD-ON] Evade Boombox IDOL - Gold Rush 200 | RELICS Boombox 300 | +6 Emote Slots 300 | [ADD-ON] Emerald Aura - Evade 300 | [ADD-ON] Warp Aura - Evade 300 | [ADD-ON] Amethyst Aura - Evade 300 | Worlds Collide Set 350 | Emote Pack 350 | Music Carry Pack 2 350 | Music Carry Pack 1 350 | Future Set 400 | [LIMITED RETURN] Eclipse Set 500 | Crystalline Set 500 | Glorp Cat Set 500 | Music Emotes Pack 1 500 | Music Emotes Pack 2 500 | Retro Cosmetics Set 500 | Classic Roblox Set 500 | Animal Set 500 | [ADD-ON] Topaz Aura - Evade 600 | [ADD-ON] Amber Aura - Evade 600 | Military Set 600 | [ADD-ON] EVADE Aura 600 | [ADD-ON] Geometric Aura - Evade 800 | [ADD-ON] Chromatic Aura - Evade 1200
+PRODUCTS: 51 for sale, min 10, median 75, max 1280
+PRODUCT SAMPLE: Respawn 10 | 1 Voucher 12 | Instant Revive 15 | 15MinXpBooster 19 | 20 Robux Donation 20 | Set Custom Nextbot 20 | Custom Nextbot 20 | 80 Tokens 30 | 10 Points 30 | Special Round 1 35 | Force Map 1 35 | 1HourXpBooster 49 | Clover Chalice 50 | Clover Baton 50 | Clover Nametag 50 | Return Streak 50 | Custom Special Round 50 | Shamrock Jump Pad 50
+## RPG, Anime and Tower Defense
+### Blox Fruits (universe 994732206, playing 238597, genre RPG)
+PASSES: Fast Boats 350 | 2x Boss Drops 350 | 2x Mastery 450 | 2x Money 450 | Dark Blade 1200 | Fruit Notifier 2700
+PRODUCTS: 152 for sale, min 25, median 350, max 5000
+PRODUCT SAMPLE: EXP Boost (15 Mins) 25 | 60K Money 50 | Rocket 50 | +50 Fruit Mastery 50 | Respawn Bosses 50 | +50 Fighting Style Mastery 50 | 200 Simulation Data 50 | +50 Sword Mastery 50 | 30,000 Money 50 | +50 Gun Mastery 50 | Spin 75 | 500 Fragments 75 | Refund Points 75 | Aura "Heat Wave" 88 | Aura "Absolute Zero" 88 | Aura "Fiery Rose" 88 | Aura "Plump Purple" 88 | Aura "Green Lizard" 88
+### [X2] Cameraman Tower Defense (universe 10762636904, playing 42985, genre Strategy)
+PASSES: 
+PRODUCTS: 31 for sale, min 29, median 159, max 999
+PRODUCT SAMPLE: Coin Boost 1 29 | Luck Boost 1 29 | Epic Pack 39 | 500 Candy 39 | 400 Coins 39 | Skip Tier (49R$) 49 | Scientist Crate x1 49 | 1,500 Candy 79 | Skip Tier 79 | 100 Gems 79 | 1,000 Coins 79 | X2 Speed 99 | Update Units Pack 99 | Coin Boost 10 199 | Double Candy 199 | Jetpack Pack 199 | Double Luck 199 | Double Coins 199
+### Vanguards: 2nd Anniversary (universe 5578556129, playing 35378, genre Strategy)
+PASSES: Extra Unit Storage 149 | VIP 299 | Display All Units 599 | Cosmetic Recolor 799 | Shiny Hunter 1299
+PRODUCTS: 362 for sale, min 74, median 1999, max 999999
+PRODUCT SAMPLE: 1 Stat Chip 74 | 15.0 Value Bundle 2 80 | 750 Presents26 80 | 750 Iced Tea26 80 | 750 Flowers26 80 | AnniBundle1 80 | 750 Cake Slices26 80 | 750 Leaves 80 | XmasValueBundle1 80 | 13.5 Value Bundle 99 | 150x Iced Tea 99 | 1100 Gold 99 | 150 Chocolate Hearts 99 | 14.0 Part 2 Value Bundle 99 | 150 Presents 99 | 150 Spirit Wisps 99 | 14.52 Value Bundle 1 99 | 150 Flowers 99
+### [APRIL FOOL'S] Anime Adventures (universe 3183403065, playing 32854, genre Strategy)
+PASSES: Unit Storage 99 | Display 3 Units 199 | VIP 299 | Display All Units 699 | Shiny Hunter 1299
+PRODUCTS: 40 for sale, min 80, median 799, max 99999
+PRODUCT SAMPLE: Gems (Mini) [+50] 80 | Candies (Mini) 80 | AprilCoins (Mini) 80 | Gold (Mini) [+100] 80 | Super Lucky 99 | Trait Reroll 129 | Ultra Lucky 149 | Key (Cursed Womb) 199 | Gems (Small) [+250] 250 | Gold (Small) [+500] 250 | Candies (Small) 250 | AprilCoins (Small) 250 | Key (The Fire) 399 | AprilCoins (Medium) 400 | Gold (Medium) [+950] 400 | Gems (Medium) [+475] 400 | Candies (Medium) 400 | Sealed Fire Staff 499
+### [ NIGHT 3] Tower Defense Simulator (universe 1176784616, playing 29825, genre Strategy)
+PASSES: Meme Emotes 55 | Resize Your Player! 70 | Custom Music [DJ Booth] 85 | Crook Boss 225 | Mortar 300 | Vigilante Skin Bundle 300 | Cowboy 340 | Turret 340 | Unwavering Tides Bundle 360 | VIP 375 | Saboteur Tower 449 | Warden 450 | [LIMITED TIME] Slasher 499 | ## [LIMITED] Executioner 799 | Harvester [LIMITED TIME] 799 | Mercenary Base 1350 | Pursuit 1500 | Engineer 1690 | [FPS MODE] Gatling Gun! 1949 | Hacker 2249 | Sandbox Plus+ 7999
+PRODUCTS: 859 for sale, min 20, median 224, max 5030
+PRODUCT SAMPLE: Rank 1 - Winter 2023 20 | Mid Grade Crate 25 | Rank 1 - Null & Void 27 | 3x Revive Tickets 29 | x3 Time Scale Tickets 29 | Rank 1 - Easter 2026 32 | Rank 1 - Christmas 2025 32 | Rank 1 - Hexscape 32 | Rank 1 - Ducky 2025 32 | Rank 1 - Halloween 2026 32 | Rank 1 - Surf and Turf 32 | Rank 1 - Operation 32 | Rank 1 - Operation I.C.E 32 | Holiday Crate 32 | Refill Daily 40 | Rank 11 - Null & Void 44 | 3x Spin Tickets 49 | Rank 10 - Easter 2026 50
+## Simulators
+### [] Ride A Pet (universe 10035204815, playing 119786, genre Simulation)
+PASSES: Infinite Radar 399
+PRODUCTS: 91 for sale, min 5, median 237, max 3499
+PRODUCT SAMPLE: x100 Luck Upgrade 5 | Upgrade Luck 5 | Skip Egg Growth 15 | Skip Egg Growth [2] 25 | Restock 25 | x10 Offline Cash 25 | Skip Growth 25 | Advanced Radar 49 | Rebirth [1] 49 | Grass 49 | x1 Basic Lantern 49 | x1 Giant Egg 49 | Skip Growth [All] 49 | $100K 49 | Royal Radar 69 | Cool Lantern 69 | Bone 69 | Meat 79
+### [] +1 Speed Keyboard Escape | Candy & Chocolate (universe 9584852943, playing 110855, genre Simulation)
+PASSES: Orange Trail 19 | Pink Trail 24 | GreenTrail 25 | BlueTrail 35 | PurpleTrail 75 | Cyan Trail 75 | Gold Treadmill 79 | Unlock Soundpacks 85 | GlowAura 90 | Wins Multiplier x2 95 | Premium Trade Booth 159 | Yellow Trail 175 | RedTrail 175 | WindAura 189 | RainbowTrail 199 | Caramel Trail 199 | White Chocolate Trail 295 | GalaxyTrail 295 | More Equipped Items (20 slots) 299 | Diamond Treadmill 345 | WaterAura 395 | Candy Treadmill 749 | FireAura 749 | Electric Aura 799 | Candy Aura 949 | Chocolate Aura 1099 | ADMIN Treadmill 1199 | Storm Aura 1249 | Alphabet Aura 1449 | Darkness Aura 1479 | CosmicTrail 1599 | Fade Trail 1599 | Spooky Trail 1835 | Ghost Aura 1849 | VoidTrail 1989 | Cookie Dough Trail 1989 | Wild Aura 1999 | Wild Trail 1999 | Divine Trail 2100 | Celestial Trail 2200 | Eternal Trail 2250 | SupernovaTrail 2289 | Ascendant Trail 2300 | Transcendant Trail 2350 | GodlikeTrail 2600 | InfinityTrail 2999
+PRODUCTS: 143 for sale, min 2, median 199, max 2490
+PRODUCT SAMPLE: Skip to Stage 2 2 | TP Stage 2 3 | 2x Speed Boost 3 | Speed Multiplier [Tier 1] 4 | 2x Wins Boost 6 | x2 XP 10 minutes 8 | Revive at the previous stage 19 | bbno$ Trail 1 19 | +100 EasterEggs 25 | Skip to Stage 10 25 | +2% Speed 29 | Revive with a Walkspeed Boost 29 | Restock Items Shop 39 | x2 XP 1 hour 44 | +5 GoldenEggs 49 | Buy Common Item 49 | TP Stage 10 50 | Skip Quest 67
+### [] Bike Universe (universe 10768284407, playing 62100, genre Simulation)
+PASSES: More Builds 99 | 2X Cash 199 | Color Wheel Customisation 240 | VIP 249 | Surge Electric 399 | Luxury Pack 599
+PRODUCTS: 12 for sale, min 79, median 169, max 1499
+PRODUCT SAMPLE: Inferno Wrap 79 | Galaxy Wrap 79 | Starter Pack 79 | Voltage Wrap 79 | $25,000 Cash 79 | Skeleton Ultra 399 | $175,000 Cash 399 | Hell Rider 999 | $1,000,000 Cash 1099 | Voltra 1499
+### Ragdoll Reality (universe 10770605947, playing 59551, genre Simulation)
+PASSES: Sports Pack 19 | Toys Pack 19 | Weather Pack 24 | Physics Pack 29 | Starter Pack 29 | Explosives Pack 39 | 2x Kills 69 | Gore Pack 79 | All Weapon Packs 89 | Flamethrower 99 | Sandbox 99 | Gunsmith 99 | VIP 149 | Minigun 149 | Rocket Launcher 199 | All Guns In The Game 399
+PRODUCTS: 8 for sale, min 10, median 49, max 499
+PRODUCT SAMPLE: Revive Me 10 | Revive Wave 15 | +100 Kills 25 | +1500 Kills 179
+### Fling Things and People (universe 2668101271, playing 50265, genre Simulation)
+PASSES: Multi-Color Line 95 | Infinite House Time 100 | More House Saves 120 | Escape Faster 240 | Earn More Coins 400 | Raised Toys Limit 400 | Farther Reach 460
+PRODUCTS: 6 for sale, min 8, median 400, max 2500
+PRODUCT SAMPLE: Walk Faster 8 | 250 Coins 200 | 1000 Coins 700
+## RNG and Gacha
+### Fisch  [FISCHFRIGHT] (universe 5750914919, playing 126432, genre Simulation)
+PASSES: Emote Pack 99 | Bobber Pack 99 | Supporter 169 | Enchant Anywhere 239 | Double XP 239 | Spawn Boat Anywhere 299 | Appraisers Luck 299 | Sell Anywhere 399 | Appraise Anywhere 499
+PRODUCTS: 621 for sale, min 1, median 699, max 9999
+PRODUCT SAMPLE: Video Ad 1 | Limited Bobber 2 [TESTING] 1 | Limited Bobber Bundle [TESTING] 1 | Testing Auto Product 1 | Limited Quests Event - Refresh Quests [FTO] 7 | PersonalAquariumSlot1 19 | 1 Token 19 | Date Reward: Day Skip 19 | Limited Quests Event - Refresh Quests 25 | Luck Potion Tier 1 - Skip 29 | Next Day 29 | Refresh Reputation Quests 29 | Skip Challenge 29 | Refresh Red Marlins Quests 29 | Refresh Ghosts Quests 29 | Refresh Midas' Mates Quests 29 | Lure Speed Potion Tier 1 - Skip 29 | Refresh Daily Shop 35
+### Climb For Animals Eggs (universe 10765490774, playing 84670, genre Simulation)
+PASSES: Auto Hatch 29 | JetPack 69 | 2x Cash 99 | VIP 150 | 2x Egg Growth 229
+PRODUCTS: 117 for sale, min 3, median 119, max 3499
+PRODUCT SAMPLE: SPEED MULTIPLIER (1) 3 | Skip Incubation (Common 5 | Green Trail 9 | Instant Hatch (1) 9 | Starter Pack 9 | Skip Incubation (Uncommon) 15 | Forest Treadmill 19 | Sleep Guards For 15 Seconds 19 | Blue Trail 19 | 2x Luck 25 | Skip Base (Tier 1) 25 | Cash Pack 1 29 | Speed Potion 29 | Purple Trail 29 | Hacker Treadmill 29 | Steal DNA (Common) 29 | Skip Incubation (Rare) 35 | Cash Potion 39
+### [] Anime Dice (universe 10708913337, playing 79031, genre Simulation)
+PASSES: More Cash 199 | Luck 199 | VIP 249 | More Grades 299 | More Traits 329 | Roll Speed 349 | Ultra Luck 499 | Double Roll 799
+PRODUCTS: 18 for sale, min 79, median 349, max 1499
+PRODUCT SAMPLE: Reset Points 79 | Jackpot Roll 79 | Luck 199 | More Cash 199 | VIP 249 | More Grades 299 | More Traits 329 | Netsu 349 | Roll Speed 349 | Shizui 349 | 5 Jackpot Spins 379 | Ultra Luck 499 | Pumpkin Pass 599 | 10 Jackpot Spins 749 | Double Roll 849 | Broc 1299 | Grimmjaw 1299 | Honored One 1499
+### [UPD] Fish It! (universe 6701277882, playing 72338, genre Simulation)
+PASSES: Small Luck 50 | Double XP 195 | Mini Hoverboat 225 | Extra Luck 245 | More Mutations 295 | Sell Anywhere 315 | Futuristic Pack 399 | Blossom Pack 399 | Lightning Pack 399 | VIP 445 | Advanced Luck 545 | Hyper Pack 999
+PRODUCTS: 151 for sale, min 9, median 327, max 999999
+PRODUCT SAMPLE: 1 Luck Potion 9 | 1 Coin Potion 9 | 1 Mutation Potion 14 | Luck II Potion 17 | Golden Locker 19 | Mutation III Potion 20 | Luck III Potion 20 | Fairy Dust Mutation Orb 24 | 1,000 Coins 25 | Mutation IV Potion 28 | Enchant Stone 29 | Bunny Hop 29 | Duo Dream Drift 29 | 1 Astryx Core 39 | 1 Golden Crew Totem 39 | Fire Mutation Orb 39 | Reroll Stock 39 | Raise It Up Emote 39
+### [] Bike For Egg! (universe 10766620257, playing 54052, genre Simulation)
+PASSES: X2 Growth 99 | X2 Money 99
+PRODUCTS: 53 for sale, min 1, median 99, max 3499
+PRODUCT SAMPLE: Grey Trail 1 | Brazil 1 | X2 SPEED 3 | Money 3 | Green Trail 4 | Beach Treadmill 9 | Space 19 | Blue Trail 19 | Money_200 19 | Ocean Treadmill 29 | SPEED 150K 29 | Purple Trail 39 | X16 SPEED 39 | Rainbow Treadmill 49 | Frost 49 | Grow 49 | Golden Trail 69 | World Bike 79
+## Obby and Skill
+### [NEW STAGES]  DONT SPLASH (universe 10771421858, playing 81620, genre Obby & Platformer)
+PASSES: Rescue Rope 30 | Max Toy Battery 75 | Max Rescue Speed 75 | Max Flare Radius 75 | Max Pebble Skipping 75 | Max Rope Reach 75 | Max Throwing Range 75 | Halloween Pack 79 | 4th Tool Slot 99 | 2x Cash 99 | All Upgrades Maxed 149 | 5th Tool Slot 149
+PRODUCTS: 17 for sale, min 14, median 29, max 199
+PRODUCT SAMPLE: Push Player 14 | 20x Pebbles 19 | 10x Bottles 19 | Emergency Self-Rescue 19 | Revive a Friend 24 | Super Push 24 | Pouch of Coins 29 | Double Run Coins 29 | 8x Wind-up Toys 29 | 8x Flares 39 | Mixed Supply Box 39 | 5x Regular Push 49 | Starter Pack 49 | Three Self-Rescues 49 | Stack of Coins 79 | 5x Super Push 89 | Bag of Coins 199
+### Tower of Hell (universe 703124385, playing 42159, genre Obby & Platformer)
+PASSES: Halloween Coils Bundle 90 | Double Coins 195 | Haunted Bundle 480
+PRODUCTS: 21 for sale, min 9, median 20, max 1200
+PRODUCT SAMPLE: 200 Coins 9 | Effect Box 9 | Invisibility 9 | Double Coins 11 | Checkpoints 11 | Common Stock 15 | Double Jump 15 | Hook 15 | Hourglass 15 | Bunny Hop 20 | Skill Reset 20 | 0.5K Coins 25 | Uncommon Stock 30 | One Week Membership 35 | Rare Stock 60 | 2K Coins 75 | One Month Membership 120 | Legendary Stock 200
+### BARRY'S PRISON RUN! (OBBY) (universe 3310460039, playing 23590, genre )
+PASSES: OFFICER NUGGET! 50 | SKI BARRY! 50 | SPEED COLA! 50 | GRAVITY COLA! 50 | GHOST MODE! 70 | DONUT BAZOOKA! 80 | CHICKEN MODE! 80 | COIN DOUBLER! 100 | SUPER FOOD ZOOKA! 100 | GRAPPLE GUN! 100 | ICE BOW! 100 | MONSTER TROLLEY! 100 | FLYING CARPET! 100 | JET PACK! 125 | TASER! 125 | TELEKINESIS! 150 | GOD BLASTER! 150 | SUPER PUNCH 2000! 150 | MINI GUN! 150 | PLAYER VACUUM! 150 | UFO 150 | GOD MODE! 170 | GUARD PASS! 200 | BLACK HOLE! 500 | ULTIMATE VIP BUNDLE! 2000
+PRODUCTS: 38 for sale, min 20, median 150, max 1000
+PRODUCT SAMPLE: Rent Item for 20R 20 | SKIBARRY 50 | GRAVITY COLA 50 | OFFICER NUGGET 50 | SPEED COLA! 50 | GHOST MODE 70 | DOH-ZOOKA! 80 | CHICKEN MORPH! 80 | ICE BOW! 100 | SUPER FOOD-ZOOKA! 100 | REMOVE ADS 100 | MONSTER TROLLEY 100 | GRAPPLE GUN! 100 | FLYING CARPET 100 | JET PACK! 125 | TASER 125 | UFO 150 | TELEKINESES 150
+### TROLL Fly & Carry Tower (universe 10764221401, playing 18141, genre Obby & Platformer)
+PASSES: Crimson Slap Hand 79 | Boombox 99 | Double Carry 99 | Infinite Escapes 139 | Lite Admin 249 | Rainbow Wings 299 | Halloween Wings 329 | Super Admin 799
+PRODUCTS: 13 for sale, min 6, median 9, max 69
+PRODUCT SAMPLE: Shake 6 | Skip To End 6 | Ignite 8 | Freeze 8 | Special Offer 9 | Explode 9 | Skip the Timer 9 | Fling 9 | Gravity Coil 9 | ESCAPE 19 | Restore the Killstreak 29 | Get The Animation 49 | Explode ALL 69
+### [EVENT] MOUNT SOREYA (universe 10547430486, playing 12210, genre Obby & Platformer)
+PASSES: MUTASI 5 | Small Luck 5 | Jual Semua 10 | Extra Luck 15 | Divine Blade 20 | Heartfelt Blade 20 | Boombox 20 | Serpent's Trident 35 | Eclipse Katana 40 | Advanced Luck 50 | VIP 50 | Reaver Scythe 100 | Soul Scythe 100 | Golden Pet 999
+PRODUCTS: 59 for sale, min 5, median 100, max 10000
+PRODUCT SAMPLE: 1X 5 | 1X SPIN CREATE 5 | Permen 5 | MUTASI 5 | 1x SPIN 5 | Small Luck 5 | Jual Semua 10 | Boba 10 | Extra Luck 15 | Heartfelt Blade 20 | Divine Blade 20 | Boombox 20 | 10X SPIN 30 | Serpent's Trident 35 | Eclipse Katana 40 | LUCK 45 | Nasi Goreng 50 | VIP 50

@@ -1,0 +1,60 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Game test</title>
+<pre id="out">loading...</pre>
+<script type="module">
+const out = document.getElementById('out');
+const log = s => { out.textContent += '\n' + s; };
+const bust = () => '?' + Date.now();
+try {
+  const workerSrc = await (await fetch('https://play.luau.org/assets/luau.worker-CbFAEWSb.js')).text();
+  const worker = new Worker(URL.createObjectURL(new Blob([workerSrc], { type: 'text/javascript' })));
+  let id = 0;
+  const pending = new Map();
+  worker.onmessage = e => { const { requestId, ...r } = e.data; const p = pending.get(requestId); if (p) { pending.delete(requestId); p(r); } };
+  const call = msg => new Promise(res => { const rid = ++id; pending.set(rid, res); worker.postMessage({ ...msg, requestId: rid }); });
+  const wasm = await WebAssembly.compile(await (await fetch('https://play.luau.org/wasm/luau.wasm')).arrayBuffer());
+  await call({ type: 'init', wasmModule: wasm });
+
+  const harness = await (await fetch('/tests/harness.luau' + bust())).text();
+  const test = await (await fetch('/tests/game_test.luau' + bust())).text();
+  const files = (await (await fetch('/list' + bust())).text()).split('\n').filter(f => f.startsWith('src/'));
+
+  const map = [];
+  let code = '';
+  let line = 1;
+  const add = (text, file, offset) => {
+    const n = text.split('\n').length;
+    map.push({ start: line + offset, end: line + n - 1, file, offset });
+    code += text + '\n';
+    line += n;
+  };
+  add(harness, 'harness', 0);
+  for (const f of files) {
+    const src = await (await fetch('/' + f + bust())).text();
+    const parts = f.slice(4).split('/');
+    const file = parts.pop();
+    let cls, name;
+    if (file === 'init.client.lua') { cls = 'LocalScript'; name = parts.pop(); }
+    else if (file.endsWith('.server.lua')) { cls = 'Script'; name = file.slice(0, -11); }
+    else if (file.endsWith('.client.lua')) { cls = 'LocalScript'; name = file.slice(0, -11); }
+    else { cls = 'ModuleScript'; name = file.slice(0, -4); }
+    const path = [...parts, name].join('.');
+    add('__define("' + path + '", "' + cls + '", function(script)\n' + src + '\nend)', f, 1);
+  }
+  add(test, 'test', 0);
+
+  const where = n => {
+    for (const m of map) if (n >= m.start && n <= m.end + 1) return m.file + ':' + (n - m.start + 1);
+    return 'combined:' + n;
+  };
+  const r = await call({ type: 'execute', code });
+  let text = (r.result.output || '') + '\n' + (r.result.error || '');
+  text = text.replace(/(main|\]|chunk)[:"]*:(\d+)/g, (m, a, n) => a + ' ' + where(parseInt(n, 10)));
+  window.__text = text;
+  log(text);
+  log('DONE success=' + r.result.success);
+} catch (e) {
+  log('ERROR ' + e);
+}
+</script>

@@ -1,0 +1,18 @@
+# Secrets: the Roblox Open Cloud API key lives in .env (never commit it)
+.env
+.env.*
+!.env.example
+
+# Blender autosaves and backups
+*.blend1
+*.blend2
+
+# Studio lock files (Sandbox.rbxl itself is committed as a snapshot; src/ is
+# the master copy of every script)
+*.rbxl.lock
+*.rbxlx.lock
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store

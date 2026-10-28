@@ -1,0 +1,5 @@
+﻿Collected (UTC): 2026-10-24T14:04:29Z
+Charts: top-playing-now, top-trending, up-and-coming, top-revisited, fun-with-friends (device=all, country=all)
+Endpoints: explore-api get-sort-content, search-api omni-search, games v1 games, game-passes v1 universes/{id}/game-passes, developer-products v2 universes/{id}/developerproducts
+
+Extra example games (manual universe IDs) collected (UTC): 2026-10-24T14:14:59Z — see COLLECTED_AT-extra.txt

@@ -1,0 +1,23 @@
+{
+  "note": "Every asset uploaded for the Sandbox place. Source files live next to this file. Ids are wired into src/ReplicatedStorage/Sandbox/Config.lua (Config.Assets).",
+  "creator": "lithik260",
+  "assets": [
+    { "configKey": "Skybox.Bk", "type": "Image", "id": "119797890904608", "source": "images/sky_Bk.png", "via": "Studio MCP upload_image", "uploaded": "2026-10-27" },
+    { "configKey": "Skybox.Dn", "type": "Image", "id": "84299100273144", "source": "images/sky_Dn.png", "via": "Studio MCP upload_image", "uploaded": "2026-10-27" },
+    { "configKey": "Skybox.Ft", "type": "Image", "id": "110511853517829", "source": "images/sky_Ft.png", "via": "Studio MCP upload_image", "uploaded": "2026-10-27" },
+    { "configKey": "Skybox.Lf", "type": "Image", "id": "110179864049699", "source": "images/sky_Lf.png", "via": "Studio MCP upload_image", "uploaded": "2026-10-27" },
+    { "configKey": "Skybox.Rt", "type": "Image", "id": "111167627538545", "source": "images/sky_Rt.png", "via": "Studio MCP upload_image", "uploaded": "2026-10-27" },
+    { "configKey": "Skybox.Up", "type": "Image", "id": "122207756809281", "source": "images/sky_Up.png", "via": "Studio MCP upload_image", "uploaded": "2026-10-27" },
+    { "configKey": "GridTexture", "type": "Image", "id": "115000226789342", "source": "images/grid.png", "via": "Studio MCP upload_image", "uploaded": "2026-10-27" },
+    { "configKey": "MoonImage", "type": "Image", "id": "136446726173572", "source": "images/moon.png (render of blender/sandbox_assets.blend, scene Moon)", "via": "Studio MCP upload_image", "uploaded": "2026-10-27" },
+    { "configKey": "Glow", "type": "Image", "id": "90205060995000", "source": "images/glow.png", "via": "Studio MCP upload_image", "uploaded": "2026-10-27" },
+    { "configKey": "AuroraTexture", "type": "Image", "id": "123258239720592", "source": "images/aurora.png (256x512: x spans the curtain's width with the bright base at column 0, y runs along the beam)", "via": "Studio MCP upload_image", "uploaded": "2026-10-27", "replaces": "138944580085223 (upside down on beams), 124461044883315 (sideways: beam textures map image x across the width)" },
+    { "configKey": "ScanlineTexture", "type": "Image", "id": "85205165266271", "source": "images/scanlines.png", "via": "Studio MCP upload_image", "uploaded": "2026-10-27" },
+    { "configKey": "CrystalMesh", "type": "Model (FBX)", "id": "117734321434501", "meshId": "72994403954618", "source": "blender/crystal_cluster.fbx (sandbox_assets.blend, scene Crystal)", "via": "Open Cloud (tools/upload_model.ps1)", "moderation": "Approved", "uploaded": "2026-10-27" },
+    { "configKey": "RuneRingMesh", "type": "Model (FBX)", "id": "83840754337356", "meshId": "118060293036777", "source": "blender/rune_ring.fbx (sandbox_assets.blend, scene RuneRing)", "via": "Open Cloud (tools/upload_model.ps1)", "moderation": "Approved", "uploaded": "2026-10-27" },
+    { "configKey": "FrameMesh", "type": "Model (FBX)", "id": "102541759311316", "meshId": "81557014267330", "source": "blender/system_frame.fbx (sandbox_assets.blend, scene SystemFrame)", "via": "Open Cloud (tools/upload_model.ps1)", "moderation": "Approved", "uploaded": "2026-10-27" }
+  ],
+  "debugOnly": [
+    { "note": "Labelled test faces used once to measure Roblox's skybox face orientation (tools/make_sky_debug.ps1). Not used by the place.", "ids": ["119070386990895", "92750519001498", "111360612302410", "139595136846574", "133376851322829", "95039899622293"] }
+  ]
+}
