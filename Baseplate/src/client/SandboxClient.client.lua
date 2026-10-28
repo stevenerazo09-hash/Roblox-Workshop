@@ -3,7 +3,7 @@
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Sandbox = ReplicatedStorage:WaitForChild("Sandbox")
+local Sandbox = ReplicatedStorage:WaitForChild("Shared"):WaitForChild("Sandbox")
 local Config = require(Sandbox.Config)
 
 task.spawn(require(Sandbox.SkyAnimator).start, Config)

@@ -9,7 +9,7 @@ while ($listener.IsListening) {
     $res.Headers.Add("Access-Control-Allow-Origin", "*")
     $rel = [System.Uri]::UnescapeDataString($ctx.Request.Url.AbsolutePath.TrimStart('/'))
     if ($rel -eq "list") {
-        $files = Get-ChildItem $Root -Recurse -File -Filter *.lua | ForEach-Object { $_.FullName.Substring($Root.Length + 1).Replace('\', '/') }
+        $files = Get-ChildItem $Root -Recurse -File | Where-Object { $_.Extension -in '.lua', '.luau' } | ForEach-Object { $_.FullName.Substring($Root.Length + 1).Replace('\', '/') }
         $bytes = [System.Text.Encoding]::UTF8.GetBytes(($files -join "`n"))
         $res.ContentType = "text/plain; charset=utf-8"
     } else {

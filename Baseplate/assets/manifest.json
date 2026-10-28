@@ -1,5 +1,5 @@
 {
-  "note": "Every asset uploaded for the Sandbox place. Source files live next to this file. Ids are wired into src/ReplicatedStorage/Sandbox/Config.lua (Config.Assets).",
+  "note": "Every asset uploaded for the Sandbox place. Source files live next to this file. Ids are wired into src/shared/Sandbox/Config.lua (Config.Assets).",
   "creator": "lithik260",
   "assets": [
     { "configKey": "Skybox.Bk", "type": "Image", "id": "119797890904608", "source": "images/sky_Bk.png", "via": "Studio MCP upload_image", "uploaded": "2026-10-27" },

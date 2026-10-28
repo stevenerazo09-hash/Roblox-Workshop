@@ -18,7 +18,28 @@ try {
 
   const harness = await (await fetch('/tests/harness.luau' + bust())).text();
   const test = await (await fetch('/tests/game_test.luau' + bust())).text();
-  const files = (await (await fetch('/list' + bust())).text()).split('\n').filter(f => f.startsWith('src/'));
+  const files = (await (await fetch('/list' + bust())).text()).split('\n').filter(f => f.startsWith('src/') && /\.luau?$/.test(f));
+
+  // Studio path for each src/ folder, read from default.project.json (Rojo layout:
+  // src/shared -> ReplicatedStorage.Shared, ...). Without a project file the folder
+  // names are the Studio names (old layout: src/ReplicatedStorage/Shared/...).
+  const mounts = [];
+  const project = await fetch('/default.project.json' + bust()).then(r => r.ok ? r.json() : null).catch(() => null);
+  const walk = (node, path) => {
+    for (const [key, child] of Object.entries(node)) {
+      if (key.startsWith('$') || !child || typeof child !== 'object') continue;
+      const p = [...path, key];
+      if (typeof child.$path === 'string') mounts.push({ dir: child.$path.replace(/\\/g, '/').replace(/\/$/, ''), path: p });
+      walk(child, p);
+    }
+  };
+  if (project && project.tree) walk(project.tree, []);
+  mounts.sort((a, b) => b.dir.length - a.dir.length);
+  const studioParts = f => {
+    const m = mounts.find(m => f.startsWith(m.dir + '/'));
+    return m ? [...m.path, ...f.slice(m.dir.length + 1).split('/')] : f.slice(4).split('/');
+  };
+  log('layout: ' + (mounts.length ? 'default.project.json (' + mounts.map(m => m.dir + ' -> ' + m.path.join('.')).join(', ') + ')' : 'folder names'));
 
   const map = [];
   let code = '';
@@ -32,13 +53,12 @@ try {
   add(harness, 'harness', 0);
   for (const f of files) {
     const src = await (await fetch('/' + f + bust())).text();
-    const parts = f.slice(4).split('/');
-    const file = parts.pop();
-    let cls, name;
-    if (file === 'init.client.lua') { cls = 'LocalScript'; name = parts.pop(); }
-    else if (file.endsWith('.server.lua')) { cls = 'Script'; name = file.slice(0, -11); }
-    else if (file.endsWith('.client.lua')) { cls = 'LocalScript'; name = file.slice(0, -11); }
-    else { cls = 'ModuleScript'; name = file.slice(0, -4); }
+    const parts = studioParts(f);
+    let name = parts.pop().replace(/\.luau?$/, '');
+    let cls = 'ModuleScript';
+    if (name.endsWith('.server')) { cls = 'Script'; name = name.slice(0, -7); }
+    else if (name.endsWith('.client')) { cls = 'LocalScript'; name = name.slice(0, -7); }
+    if (name === 'init') name = parts.pop(); // init.* is the folder's own script
     const path = [...parts, name].join('.');
     add('__define("' + path + '", "' + cls + '", function(script)\n' + src + '\nend)', f, 1);
   }

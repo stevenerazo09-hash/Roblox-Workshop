@@ -4,7 +4,8 @@
 
 **How to apply:**
 - `start_stop_play` toggles play. `execute_luau` runs in `Edit`, `Client` or `Server`. Scripts can only be edited in Edit mode, so stop play first.
-- `user_keyboard_input` needs `datamodel_type = "Client"`. `user_mouse_input` can't click SurfaceGui buttons.
+- `user_keyboard_input` needs `datamodel_type = "Client"`; with it, key presses reach the game (M opened and closed the System menu). `user_mouse_input` can't click SurfaceGui buttons.
+- Run each test server on its own port. An old `serve.ps1` still holding 8765 will answer the page with another folder's files.
 - `screen_capture` takes 5–10 s and ignores a scripted camera; pass `camera_position` / `look_at_position` for a fixed view. For a 2–4 s effect, use computer use: click the viewport, press the key, then several `zoom` actions on the viewport in one batch.
 - Computer-use keys only reach Studio when it's in front. Bring the right window forward with PowerShell `(New-Object -ComObject WScript.Shell).AppActivate("<place> - Roblox Studio")`; Studio sometimes shows its start page as a separate window.
 - The first click after a focus change is often swallowed: hover, then click. Screenshots right after a focus change can be black, so wait and retake.

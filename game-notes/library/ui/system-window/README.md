@@ -17,13 +17,13 @@
 - Asset ids it reads from `Config.Assets`: `FrameMesh` (81557014267330), `Glow` (90205060995000), `ScanlineTexture` (85205165266271). All are uploads on lithik260, so they work in any of Steven's games.
 
 **Depends on:**
-- `Assets.lua` (included here): loads the frame MeshPart and falls back to a plain Part. `HoloPanel.lua` requires it from `ReplicatedStorage.Sandbox.Assets`, so change that line when the folder lives somewhere else.
+- `Assets.lua` (included here): loads the frame MeshPart and falls back to a plain Part. `HoloPanel.lua` requires it from `ReplicatedStorage.Shared.Sandbox.Assets` (the Baseplate layout), so change that line when it lives somewhere else.
 - A config table passed in as `ctx.Config` (the Sandbox `ExperimentLoader` passes it; see [[experiment-loader]]). Without the loader, call the module's `client(ctx)` yourself with `{ Config = yourConfig }`.
 - Services: Players, UserInputService, TweenService, RunService, Lighting, SoundService.
 
 **Used in:** Baseplate, `src/shared/Experiments/SystemMenu/` (run by ExperimentLoader on the client)
 
-**Version:** 0.1
+**Version:** 0.2 (2026-10-27: requires `Assets` from `ReplicatedStorage.Shared.Sandbox`; opened and closed with M in a place built from Baseplate's `default.project.json`)
 
 **Notes:**
 - Files: `SystemMenu/init.lua` (the ModuleScript; open/close state, input), `MenuCamera.lua` (camera flight, parallax, breathing, blur), `HoloPanel.lua` (3D panel, frame mesh, light, open/close effects), `SystemWindow.lua` (window contents), `Sounds.lua`.

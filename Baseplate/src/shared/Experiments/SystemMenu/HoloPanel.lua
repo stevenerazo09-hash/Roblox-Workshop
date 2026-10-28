@@ -8,7 +8,7 @@ local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local TweenService = game:GetService("TweenService")
 
-local Assets = require(ReplicatedStorage:WaitForChild("Sandbox"):WaitForChild("Assets"))
+local Assets = require(ReplicatedStorage:WaitForChild("Shared"):WaitForChild("Sandbox"):WaitForChild("Assets"))
 local SystemWindow = require(script.Parent.SystemWindow)
 
 local HoloPanel = {}

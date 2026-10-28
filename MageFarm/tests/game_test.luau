@@ -7,8 +7,12 @@ local function section(name)
 	print("== " .. name .. "  (errors so far: " .. #__errors .. ")")
 end
 
+-- Server scripts sit under ServerScriptService.Server in the Rojo project layout
+-- (src/server) and directly in ServerScriptService in the old one.
+local SERVER = if __find("ServerScriptService.Server") then "ServerScriptService.Server" else "ServerScriptService"
+
 section("server boot")
-__runScript("ServerScriptService.Main")
+__runScript(SERVER .. ".Main")
 __advance(0.1)
 expect(RS:FindFirstChild("Remotes") ~= nil, "Remotes folder created")
 local Config = require(RS.Shared.Config)
@@ -302,7 +306,7 @@ end
 
 section("region rules + gifts")
 do
-	local GameService = require(__find("ServerScriptService.Services.GameService"))
+	local GameService = require(__find(SERVER .. ".Services.GameService"))
 	local invoke = RS.Remotes.Request.OnServerInvoke
 	__restricted[303] = true
 	local p3 = __newPlayer("Uk", 303)
@@ -498,7 +502,7 @@ call("Buy", "product", "StarterPack")
 __advance(1)
 expect(string.find(shopTexts(), "Starter Pack", 1, true) == nil, "bought Starter Pack no longer listed")
 expect(gui.Root.Promos.PromoStarterPack.Visible == false, "bought Starter Pack promo hidden")
-local GameServiceUI = require(__find("ServerScriptService.Services.GameService"))
+local GameServiceUI = require(__find(SERVER .. ".Services.GameService"))
 GameServiceUI.getSession(p1).restricted = true
 call("SetAutoPlace", true) -- pushes fresh data to the client
 __advance(1)

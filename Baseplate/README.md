@@ -4,14 +4,19 @@ A Roblox testing place: a dark grid baseplate under a purple/blue night sky,
 plus an **Experiments** folder where every idea lives in its own ModuleScript.
 The first experiment is a Solo Leveling-style **System** window (press **M**).
 
-- Place file: `Sandbox.rbxl` (open it in Roblox Studio). Not published to Roblox.
-- `src/` is the **master copy** of every script. The place holds the same code;
-  edit `src/` first, then copy the change into Studio (see *Keeping Studio and
-  src/ in sync*). No Rojo.
+- `src/` follows `default.project.json` (Rojo layout): `src/shared` →
+  `ReplicatedStorage.Shared`, `src/server` → `ServerScriptService.Server`,
+  `src/client` → `StarterPlayer.StarterPlayerScripts.Client`. Build a place
+  from it with `rojo build default.project.json -o Baseplate.rbxl` (Rojo isn't
+  installed yet).
+- `Sandbox.rbxl` (not in git) is a snapshot of the place from before this repo.
+  It uses the old Studio layout (`ReplicatedStorage.Sandbox`,
+  `ReplicatedStorage.Experiments`) and runs as is, but its scripts no longer
+  match `src/` line for line. Not published to Roblox.
 
 ## Run it
 
-1. Open `Sandbox.rbxl` in Roblox Studio.
+1. Open a place built from `default.project.json` (or the `Sandbox.rbxl` snapshot) in Roblox Studio.
 2. Press **F5** (Play). You spawn on the purple pad in the middle.
 3. Press **M** to open the System window, **M** again to close it. Click the
    tabs and the **+** buttons next to the stats.
@@ -24,19 +29,21 @@ not from this place.)
 
 ```
 src/
-  ReplicatedStorage/
-    Sandbox/                 (Folder in Studio)
+  shared/                    ReplicatedStorage.Shared
+    Sandbox/                 (Folder)
       Config.lua             every tunable value + every asset id
       Assets.lua             MeshPart loading with plain-Part fallback
       World.lua              baseplate, spawn, reference props, crystals, rune rings
       Sky.lua                Lighting, post effects, skybox, clouds, stars, moon, aurora
       SkyAnimator.lua        client animation: star rotation, twinkle, aurora, crystal bob
-      ExperimentLoader.lua   runs every module in ReplicatedStorage.Experiments
-    Experiments/             (Folder in Studio)
+      ExperimentLoader.lua   runs every module in ReplicatedStorage.Shared.Experiments
+    Experiments/             (Folder)
       SystemMenu/            init.lua = the SystemMenu ModuleScript, children below
         MenuCamera.lua  HoloPanel.lua  SystemWindow.lua  Sounds.lua
-  ServerScriptService/SandboxServer.server.lua         builds world + sky, starts experiments
-  StarterPlayer/StarterPlayerScripts/SandboxClient.client.lua   sky animation, starts experiments
+  server/                    ServerScriptService.Server (init.server.luau)
+    SandboxServer.server.lua builds world + sky, starts experiments
+  client/                    StarterPlayer.StarterPlayerScripts.Client (init.client.luau)
+    SandboxClient.client.lua sky animation, starts experiments
 assets/
   manifest.json              every uploaded asset id and its source file
   images/                    generated textures (sky faces, grid, aurora, glow, scanlines, moon)
@@ -126,8 +133,8 @@ Stat points you spend with **+** stay for the session (they are not saved).
 
 ## Add a new experiment
 
-1. In Studio, add a ModuleScript to `ReplicatedStorage.Experiments` (and the same
-   file to `src/ReplicatedStorage/Experiments/`).
+1. Add a ModuleScript file to `src/shared/Experiments/` (in Studio it lives in
+   `ReplicatedStorage.Shared.Experiments`).
 2. Return a table with `server(ctx)` and/or `client(ctx)`:
 
    ```lua
@@ -151,15 +158,17 @@ Stat points you spend with **+** stay for the session (they are not saved).
   powershell -ExecutionPolicy Bypass -File tools\checksums.ps1
   ```
 
-  and compare with the same numbers from Studio's command bar (the Luau
-  snippet in Obsidian *Sandbox* → "Checksum check" walks the same 13 scripts).
-  Lengths and Adler-32 must match line for line. Files are saved with LF.
+  and compare with the same numbers from Studio's command bar. Add `-Snippet`
+  to print the Luau code to paste there (Ctrl+Enter): it walks the same
+  scripts, with Studio paths taken from `default.project.json`. Lengths and
+  Adler-32 must match line for line. Files are saved with LF; the script flags
+  any file with CRLF line endings, which can never match.
 - **Rebuild the preview** (edit mode, after changing World/Sky config): run this
   in the command bar (Ctrl+Enter), then save the place. It requires fresh clones
   because Studio caches modules in edit mode, and deletes them afterwards.
 
   ```lua
-  local S=game.ReplicatedStorage.Sandbox local t={} local function f(m) local c=m:Clone() c.Parent=S table.insert(t,c) return require(c) end local C=f(S.Config) f(S.World).build(C) f(S.Sky).build(C) for _,c in t do c:Destroy() end
+  local S=game.ReplicatedStorage.Shared.Sandbox local t={} local function f(m) local c=m:Clone() c.Parent=S table.insert(t,c) return require(c) end local C=f(S.Config) f(S.World).build(C) f(S.Sky).build(C) for _,c in t do c:Destroy() end
   ```
 
 ## Assets

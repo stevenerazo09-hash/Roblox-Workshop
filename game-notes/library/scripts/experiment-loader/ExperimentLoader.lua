@@ -1,4 +1,4 @@
--- Runs every ModuleScript in ReplicatedStorage.Experiments, on the server and
+-- Runs every ModuleScript in ReplicatedStorage.Shared.Experiments, on the server and
 -- on each client. Drop a new module into that folder and it runs, even during
 -- a playtest. An experiment module returns a table with optional
 -- `server(ctx)` and `client(ctx)` functions:
@@ -16,8 +16,9 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local ExperimentLoader = {}
 
 function ExperimentLoader.start(side: "server" | "client")
-	local Config = require(ReplicatedStorage:WaitForChild("Sandbox"):WaitForChild("Config"))
-	local folder = ReplicatedStorage:WaitForChild("Experiments")
+	local Shared = ReplicatedStorage:WaitForChild("Shared")
+	local Config = require(Shared:WaitForChild("Sandbox"):WaitForChild("Config"))
+	local folder = Shared:WaitForChild("Experiments")
 	local started = {}
 
 	local function run(module: Instance)
